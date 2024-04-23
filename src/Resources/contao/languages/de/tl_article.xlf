@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file source-language="de">
+    <body>
+      <trans-unit id="tl_article.graphical_presentation_legend">
+        <source>Darstellung</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutSpace.0">
+        <source>Abstand</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutSpace.1">
+        <source>Der vertikale Abstand zwischen Sektionen.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackground.0">
+        <source>Hintergrund</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackground.1">
+        <source>Der Hintergrund der Sektion.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackgroundDuo.0">
+        <source>Hintergrund Zwei-Ton</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackgroundDuo.1">
+        <source>Erlaubt Zwei-Ton-Hintergründe mit der gewählten Höhe.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutWidth.0">
+        <source>Maximale Breite</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutWidth.1">
+        <source>Die maximale Breite des Inhalts innerhalb dieser Sektion. Der Inhalt nutzt die gesamte Breite, wenn keine Auswahl getroffen wird.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.isTextContainer.0">
+        <source>Text-Container</source>
+      </trans-unit>
+      <trans-unit id="tl_article.isTextContainer.1">
+        <source>Wenn aktiviert, wird das Text-System genutzt, um Fließtext optisch zu formatieren. Kann in den meisten Fällen aktiviert werden.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

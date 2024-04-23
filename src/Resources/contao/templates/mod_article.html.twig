@@ -1,0 +1,43 @@
+{% extends '@Contao/mod_article' %}
+
+{% import '@Contao_ArticleSectionsBundle/_macros.html.twig' as macros %}
+
+{# Set class variants for layout settings.
+   They should only be added if they are defined.
+#}
+{% if layoutSpace %}
+    {% set layoutSpace = 'section_d-' ~ layoutSpace %}
+{% endif %}
+
+{% if layoutBackground %}
+    {% set layoutBackground = 'section_b-' ~ layoutBackground %}
+{% endif %}
+
+{% if layoutBackgroundDuo %}
+    {% set layoutBackgroundDuo = 'section_b-duo section_b-' ~ layoutBackgroundDuo %}
+{% endif %}
+
+{# Remove Contao’s base class and add custom ones. #}
+{% set class = macros.removeFromClass(class, 'mod_article') %}
+{% set class = macros.addToClass(class, [
+    'section',
+    layoutSpace,
+    layoutBackground,
+    layoutBackgroundDuo,
+]) %}
+
+{# Add class for text system if defined #}
+{% if isTextContainer %}
+    {% set class = macros.addToClass(class, 'has-text') %}
+{% endif %}
+
+{# Add width container around content if defined #}
+{% block content %}
+    {% if layoutWidth %}
+        <div class="w-box w-box_{{ layoutWidth }}">
+            {{ parent() }}
+        </div>
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}

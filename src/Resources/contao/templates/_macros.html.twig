@@ -1,0 +1,24 @@
+{% macro removeFromClass(input, removal) %}
+{% apply spaceless %}
+{% if removal is empty %}
+    {{ input }}
+{% else %}
+    {{ input|replace({(removal): ''})|trim }}
+{% endif %}
+{% endapply %}
+{% endmacro %}
+
+{% macro addToClass(input, additions) %}
+{% apply spaceless %}
+{% if additions is empty %}
+    {{ input }}
+{% else %}
+    {% if additions is not iterable %}
+        {% set additions = [additions] %}
+    {% endif %}
+    {% set result = [input]|merge(additions) %}
+    {% set result = result|filter(part => part is not empty) %}
+    {{ result|join(' ') }}
+{% endif %}
+{% endapply %}
+{% endmacro %}

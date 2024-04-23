@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file source-language="en">
+    <body>
+      <trans-unit id="tl_article.graphical_presentation_legend">
+        <source>Graphical Presentation</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutSpace.0">
+        <source>Layout Space</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutSpace.1">
+        <source>Select the vertical space to use above and below this section.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackground.0">
+        <source>Layout Background</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackground.1">
+        <source>Select the background to use for this section.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackgroundDuo.0">
+        <source>Duo-tone background</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutBackgroundDuo.1">
+        <source>Allows duo-tone background with the selected height.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutWidth.0">
+        <source>Maximum Width</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutWidth.1">
+        <source>Select the maximum width of content inside this section. The content uses all available space when no selection has been made.</source>
+      </trans-unit>
+      <trans-unit id="tl_article.isTextContainer.0">
+        <source>Text Container</source>
+      </trans-unit>
+      <trans-unit id="tl_article.isTextContainer.1">
+        <source>Use the text system inside this section when active. Can be activated in most cases.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
