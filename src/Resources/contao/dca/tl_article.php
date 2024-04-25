@@ -73,9 +73,22 @@ $GLOBALS['TL_DCA']['tl_article']['fields']['layoutWidth'] = [
     ],
 ];
 
+$GLOBALS['TL_DCA']['tl_article']['fields']['layoutInlineSpaceFlush'] = [
+    'inputType' => 'checkbox',
+    'eval' => [
+        'isBoolean' => true,
+        'tl_class' => 'w50 m12'
+    ],
+    'sql' => [
+        'type' => 'boolean',
+        'default' => false,
+    ],
+];
+
 PaletteManipulator::create()
     ->addLegend('graphical_presentation_legend', 'template_legend', PaletteManipulator::POSITION_AFTER)
     ->addField('layoutWidth', 'graphical_presentation_legend', PaletteManipulator::POSITION_APPEND)
+    ->addField('layoutInlineSpaceFlush', 'graphical_presentation_legend', PaletteManipulator::POSITION_APPEND)
     ->addField('layoutSpace', 'graphical_presentation_legend', PaletteManipulator::POSITION_APPEND)
     ->addField('layoutBackground', 'graphical_presentation_legend', PaletteManipulator::POSITION_APPEND)
     ->addField('layoutBackgroundDuo', 'graphical_presentation_legend', PaletteManipulator::POSITION_APPEND)

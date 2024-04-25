@@ -11,6 +11,12 @@
       <trans-unit id="tl_article.layoutSpace.1">
         <source>Select the vertical space to use above and below this section.</source>
       </trans-unit>
+       <trans-unit id="tl_article.layoutInlineSpaceFlush.0">
+        <source>No inline padding on mobile</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutInlineSpaceFlush.1">
+        <source>Removes the outer inline padding of the box.</source>
+      </trans-unit>
       <trans-unit id="tl_article.layoutBackground.0">
         <source>Layout Background</source>
       </trans-unit>

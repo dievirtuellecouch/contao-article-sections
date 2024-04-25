@@ -11,6 +11,12 @@
       <trans-unit id="tl_article.layoutSpace.1">
         <source>Der vertikale Abstand zwischen Sektionen.</source>
       </trans-unit>
+      <trans-unit id="tl_article.layoutInlineSpaceFlush.0">
+        <source>Kein Inline-Abstand mobile</source>
+      </trans-unit>
+      <trans-unit id="tl_article.layoutInlineSpaceFlush.1">
+        <source>Entfernt den äußeren horizontalen Abstand der Box.</source>
+      </trans-unit>
       <trans-unit id="tl_article.layoutBackground.0">
         <source>Hintergrund</source>
       </trans-unit>

@@ -34,7 +34,7 @@
 {# Add width container around content if defined #}
 {% block content %}
     {% if layoutWidth %}
-        <div class="w-box w-box_{{ layoutWidth }}">
+        <div class="w-box w-box_{{ layoutWidth }}{% if layoutInlineSpaceFlush %} w-box_flush-br-s{% endif %}">
             {{ parent() }}
         </div>
     {% else %}
