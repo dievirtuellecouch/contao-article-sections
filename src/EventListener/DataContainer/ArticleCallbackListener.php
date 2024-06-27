@@ -36,7 +36,7 @@ class ArticleCallbackListener
     )]
     public function getLayoutDuoBackgroundOptions(?DataContainer $dataContainer): array
     {
-        return $this->configuration['duo_backgrounds'] ?? [];
+        return $this->configuration['duo-backgrounds'] ?? [];
     }
 
     #[AsCallback(
