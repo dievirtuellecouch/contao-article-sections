@@ -2,16 +2,16 @@
     "name": "dvc/contao-article-sections",
     "description": "Adds fields to Contao’s content articles to support layout adjustments for editors",
     "type": "contao-bundle",
-    "version": "2.0.0",
+    "version": "2.1.1",
     "require": {
-        "php": "^8.3",
-        "contao/core-bundle": "^5.3"
+        "php": "^8.1",
+        "contao/core-bundle": "^4.13 || ^5.3"
     },
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Timo Werlich",
-            "email": "info@websailing.de"
+            "name": "Jonathan Hermann",
+            "email": "jh@d-v-c.net"
         }
     ],
     "autoload": {
